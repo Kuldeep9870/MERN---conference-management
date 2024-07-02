@@ -7,7 +7,7 @@ import eventRouter from './routes/event.js'
 import bodyParser from "body-parser";
 import cors from 'cors';
 
-mongoose.connect('mongodb+srv://kuldeep:kd2002@cluster0.lsckfuz.mongodb.net/conference?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('');
 
 const app=express();
 app.use(cors());
